@@ -40,7 +40,7 @@ describe("FizzBuzz", function() {
 
     it("'Fizz' when a number is divisible by 3", function() {
       fizzbuzz = new FizzBuzz();
-      expect(fizzbuzz.sayFizz(3)).toBe("Fizz")
+      expect(fizzbuzz.say(3)).toBe("Fizz")
     });
 
     it("the number when a number is not divisible by 3", function() {
@@ -50,7 +50,7 @@ describe("FizzBuzz", function() {
 
     it("'Buzz' when a number is divisible by 5", function() {
       fizzbuzz = new FizzBuzz();
-      expect(fizzbuzz.sayBuzz(5)).toBe("Buzz")
+      expect(fizzbuzz.say(5)).toBe("Buzz")
     });
 
   });
