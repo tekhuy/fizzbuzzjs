@@ -55,4 +55,10 @@ describe("FizzBuzz", function() {
 
   });
 
+  describe("In a game of FizzBuzz", function() {
+    it("can return a range between 1 - 30", function() {
+      expect(fizzbuzz.upTo(3)).toBe(1, 2, "Fizz")
+    });
+  });
+
 });

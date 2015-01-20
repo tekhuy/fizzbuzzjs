@@ -23,3 +23,5 @@ FizzBuzz.prototype.say = function(number) {
 		return number;
 	}
 };
+
+for (var i = 1; i < 32; i++) {console.log(fizzbuzz.say(i))};
