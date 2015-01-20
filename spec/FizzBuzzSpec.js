@@ -31,4 +31,12 @@ describe("FizzBuzz", function() {
 
   });
 
+  describe("FizzBuzz says", function() {
+
+    it("'Fizz' when a number is divisible by 3", function() {
+      expect(fizzbuzz.sayFizz(3)).toBe("Fizz")
+    });
+
+  });
+
 });
