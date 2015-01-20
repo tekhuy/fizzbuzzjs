@@ -53,6 +53,11 @@ describe("FizzBuzz", function() {
       expect(fizzbuzz.say(5)).toBe("Buzz")
     });
 
+    it("range", function(){
+      fizzbuzz = new FizzBuzz();
+      expect(fizzbuzz.upTo(3)).toEqual([1, 2, "Fizz"])
+    });
+
   });
 
 });

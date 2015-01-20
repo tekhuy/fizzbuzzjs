@@ -25,5 +25,7 @@ FizzBuzz.prototype.say = function(number) {
 };
 
 FizzBuzz.prototype.upTo = function(last_number) {
-	for (var i = 1; i <= last_number; i++) {console.log(this.say(i))};
+	array = [];
+	for (var i = 1; i <= last_number; i++) {array.push(this.say(i))};
+	return array;
 };
