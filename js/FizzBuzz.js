@@ -17,3 +17,9 @@ FizzBuzz.prototype.sayFizz = function(number) {
 		return "Fizz";
 	}	
 };
+
+FizzBuzz.prototype.sayBuzz = function(number) {
+  if(this.isDivisibleByFive(number)){
+    return "Buzz";
+  }
+};

@@ -43,6 +43,11 @@ describe("FizzBuzz", function() {
       expect(fizzbuzz.sayFizz(3)).toBe("Fizz")
     });
 
+    it("the number when a number is not divisible by 3", function() {
+      fizzbuzz = new FizzBuzz();
+      expect(fizzbuzz.say(1)).toBe(1)
+    });
+
     it("'Buzz' when a number is divisible by 5", function() {
       fizzbuzz = new FizzBuzz();
       expect(fizzbuzz.sayBuzz(5)).toBe("Buzz")
